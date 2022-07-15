@@ -1,0 +1,275 @@
+@media screen and (max-width: 1024px) {
+  /* Menu Navigation Section*/
+  .nav_left > ul > li > a {
+    padding: 18px 19px;
+  }
+  .search {
+    width: 255px;
+  }
+  .notification_section .noification_closeBTN {
+    right: 15px;
+  }
+  /* Identity section*/
+  .identity_section {
+    padding: 3px 2px 3px 0px;
+  }
+  .identity_section .container .buttons_btn .desktopBTN a {
+    min-width: 148px;
+  }
+  .identity_section .container .buttons_btn .desktopBTN a span {
+    font-weight: 400;
+    padding-left: 17px;
+    padding-right: 20px;
+    letter-spacing: 0px;
+  }
+  .nav_left > ul > li > a span {
+    letter-spacing: 0.7px;
+  }
+  .title_section .container .title h1 {
+    font-size: 40px;
+    line-height: 59px;
+  }
+  .title_section .container .reebok_logo {
+    max-width: 321px;
+    padding: 16px 18px;
+  }
+  .title_section .container .reebok_logo p {
+    padding-right: 21px;
+  }
+  .rebok_img {
+    margin-right: -12px;
+  }
+
+  /* Page Title Section*/
+  .title_section .container .reebok_logo {
+    transform: skewx(-19deg);
+  }
+
+  .slider_section {
+    min-height: 450px;
+  }
+  .slider_section .swiper-button-next {
+    display: none;
+  }
+  .slider_section .swiper-button-prev {
+    display: none;
+  }
+  .slider_section .swiper-slide .text_col {
+    padding: 15px 20px 15px 1px;
+  }
+  .slider_section .swiper-slide {
+    padding: 0 0;
+  }
+  .shoe_col .play_btn {
+    top: 48%;
+    left: 49%;
+  }
+  .slider_section .swiper-slide .text_col h2 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.65px;
+    margin-bottom: 0;
+  }
+  .slider_section .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 33px;
+  }
+  .slider_section .swiper-slide .text_col p {
+    line-height: 24px;
+    margin-bottom: 27px;
+    margin-top: 15px;
+  }
+  .slider_section .shoe_col {
+    padding: 36px 30px 74px 30px;
+  }
+  .slider_section .shoe_col .shoe_img > img {
+    max-width: 80%;
+  }
+  /* images carusels */
+  .carusel-button-next,
+  .carusel-button-prev {
+    display: none;
+  }
+  .carusel_section .swiper {
+    width: 100%;
+  }
+  .main_sections {
+    padding: 60px 0px 52px;
+  }
+  .main_sections .container .content_row .left_col {
+    margin-right: 22px;
+  }
+  .main_sections .container .content_row .left_col {
+    width: calc(100% - 302px);
+  }
+  /******** Side Bar  */
+  .sidebar .event_section .event_content {
+    padding: 20px 2px 29px 21px;
+  }
+  .sidebar .event_section .event_content .event_list .list_data a {
+    text-underline-offset: 2px;
+  }
+  .category_content {
+    padding: 18px 20px 19px 36px;
+  }
+  .tags_content {
+    padding: 9px 26px 44px 20px;
+  }
+
+  .card_section .card .card_btn button {
+    padding: 7px 0px;
+  }
+
+  .sidebar .search_section .search_form {
+    padding: 24px 19px 22px 20px;
+  }
+  /******** Side Bar  */
+
+  .card_section {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% + 30px);
+    margin: 38px -15px 13px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .card_section .card {
+    width: calc(50% - 30px);
+    margin-bottom: 31px;
+  }
+  .card_section .card .car_img {
+    padding-bottom: 52%;
+  }
+  .card_section .card .content {
+    padding: 17px 25px 46px 11px;
+  }
+  .card_section .card:nth-child(3) > .content {
+    padding: 18px 22px 43px 11px;
+  }
+  .main_sections .container .content_row .sidebar {
+    margin-left: 16px;
+  }
+  /** ZigZAg*/
+  .zigzag_section .zizag_child:nth-child(odd) .zigzagcol_img {
+    width: 51%;
+    clip-path: polygon(0 0, 100% 0, 83% 100%, 0 100%);
+  }
+  .zigzag_section .zizag_child:nth-child(odd) .zigzag_cntent {
+    width: 49%;
+    padding: 64px 12px 82px 36px;
+  }
+  .zigzag_section .zizag_child:nth-child(even) .zigzagcol_img {
+    width: 52%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%);
+  }
+  .zigzag_section .zizag_child:nth-child(even) .zigzag_cntent {
+    width: 48%;
+    padding: 62px 9px 80px 29px;
+  }
+  /** Tabs Section**/
+  .tabs_section {
+    padding: 9px 0px;
+  }
+  .tabs_section .tabcontent {
+    padding: 31px 29px 64px 37px;
+  }
+  .accordion {
+    padding-top: 35px;
+  }
+  .accordion__body {
+    padding: 18px 0px 9px 0px;
+  }
+  .arrow-icon {
+    right: 2%;
+  }
+
+  /*Form*/
+  .form_section {
+    padding-top: 35px;
+  }
+  .form_section .form_wrapper .form {
+    padding: 12px 0px;
+  }
+  .form_section .form_wrapper .form .Form_row .input_wrapper {
+    margin: 0 15px 16px;
+  }
+  .form_section .form_wrapper .form .Form_row:not(:first-child) {
+    margin-top: 16px;
+  }
+  .form_section .form_wrapper .form .Form_row .input_wrapper .label {
+    margin-bottom: 2px;
+  }
+  .form_section .form_wrapper .form .Form_row .input_wrapper select {
+    padding: 9px 5px;
+  }
+  .radio_btn {
+    padding: 4px 0px 3px 0px;
+  }
+  .radio_button {
+    padding: 4px 15px 16px 1px;
+  }
+  .form_section .form_wrapper .form .Form_row .input_wrapper input {
+    padding: 9px 9px;
+  }
+  .form_section .form_wrapper .form .textare_class .label {
+    letter-spacing: 0.3px;
+  }
+  .textare_class textarea {
+    padding: 11px 12px 9px 9px;
+  }
+  .contactForm_btn {
+    padding: 18px 10px;
+  }
+  .footer_section {
+    padding: 30px 20px 35px;
+  }
+
+  .footer_section .container .social_media {
+    padding: 15px 11px 12px;
+  }
+  .footer_section .container .copyright_sections p {
+    letter-spacing: 0px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .nav_left > ul > li > a {
+    font-size: 14px;
+    padding: 16px 17px;
+  }
+  .search {
+    width: 200px;
+  }
+  #tracksmenu > a {
+    padding: 17px 20px;
+  }
+  #eventmenu {
+    padding: 17px 20px;
+  }
+  #trackmapmenu {
+    padding: 17px 20px;
+  }
+  .slider_section .shoe_col .shoe_img > img {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .slider_section .shoe_col .shoe_img > img {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .outer_header {
+    display: block !important;
+  }
+
+  .overflow {
+    overflow: auto !important;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block !important;
+  }
+}

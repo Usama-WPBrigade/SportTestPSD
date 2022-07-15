@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/reponsive920.css">
+    <link rel="stylesheet" href="./assets/css/responsive767.css">
+    
+    <title>Test PSD</title>
+</head>
+<body>
+    <!--Notification section-->
+    <section class="notification_section" id="main_container">
+        <div class="container">
+            <p>LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL / <a href="#"> WATCH NOW</a></p>
+        </div>
+        <button onclick="close_notification()" class="noification_closeBTN">
+            <img src="./assets/img/my-account-close-icon.svg">
+        </button>
+    </section>
+    
+    <!--header-->
+    <header class="header">
+        <section class="identity_section">
+            <div class="container">
+                <div class="logo">
+                    <div class="logo_icon">
+                      <a href="#"><img class="logoimg" src="./assets/img/logoxyz.png"></a>
+                    </div>
+                    <button class="burgericon" id="toggle_nav">
+                        <img class="image" src="./assets/img/burger.svg">
+                    </button>
+                </div>
+                <div class="buttons_btn">
+                    <div class="desktopBTN">
+                        <a href="#" class="btn_idenity"><span>Membership</span></a>
+                        <a href="#" class="btn_idenity"><span>Account</span></a>
+                    </div>                        
+                </div>
+        </section>
+        <section class="mobile_btn">
+            <a href="#" class="btn_member"><span>Membership</span></a>
+            <a href="#" ><span>Account</span></a>
+        </section>
+
+        <!--navigation section-->
+        <section class="outer_header" id="outer_header">
+            <div class="container">
+              <nav class="nav_left">
+                  <ul>
+                    <li  ><a href="#TRACKS" class="menu_active"><span>OUR TRACKS</span></a>
+                      <!-- <ul class="dropdown-content" >
+                        <li><a href="#">Long Shorts</a></li>
+                        <li> <a href="#">Handle Grips</a></li>
+                        <li><a href="#" >Stickers</a></li>
+                      </ul> -->
+                  </li>
+                    <li><a  id="eventmenu" href="#EVENTS"><span>FIND EVENTS</span></a></li>
+                    <li><a href="#MAP" class="perfect" id="trackmapmenu"> <span>TRACK MAP</span> </a></li>
+                    <li class="dropdown" id="shopmenu"><a href="#TRACKS" ><span>SHOP</span></a>
+                      <ul class="dropdown-content" id="dropdown"  >
+                        <li><a href="#">Sports Shoes</a></li>
+                        <li> <a href="#">Sports Garments</a></li>
+                        <li><a href="#" >Accessories</a></li>
+                      </ul>
+                      <div class="dropdown_icon"></div>
+                    </li>
+                    <li><a href="#MAP" class="perfect" id="aboutmenu"><span>About US</span></a></li>
+                  </ul>
+              </nav>
+          
+              <nav class="nav_right">
+                <div class="search">
+                  <form>
+                    <input type="search" placeholder="Search" class="search_field"/>
+                    <button class="btn_search"><img src="./assets/img/table-search-input-icon.svg"></button>
+                    <!-- <img
+                      class="searchimage"
+                      src="./assets/img/table-search-input-icon.svg"
+                      width="100"
+                    /> -->
+                  </form>
+                </div>
+              </nav>
+            </div>
+          </section>
+    </header>
+
+          <!--Title-->
+          <section class="title_section">
+            <div class="container">
+              <div class="title">
+                <h1>HOME PAGE</h1>
+              </div>
+              <div class="reebok_logo">
+                <p class="rebok_text">PARTNERSHIP BY</p>
+                <div class="rebok_img">
+                    <img src="./assets/img/icon-reebok-logo-white.svg" alt="Loading">
+                </div>
+              </div>
+            </div>
+          </section>
+
+    <!--Slider-->
+    <section class="slider_section">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!--slider 1-->
+            <div data-hash="slide1" class="swiper-slide">
+              <div class="text_col col">
+                <h2>GET READY FOR NEW ADIDAS BANDS</h2>
+                <p>Adidas tracks all begin with a starting gate and end with a finish line, but everything in between varies from track to track. Because no two tracks are alike, this action sport keeps you on your toes wherever you are racing.</p>
+              </div>
+              <div class="shoe_col col">
+                <div class="shoe_img">
+                  <img src="./assets/img/shoes.png"> 
+                  <button class="play_btn" onclick='playvideo("https://www.youtube.com/embed/-vxwTS9sUq4")' ><img src="./assets/img/play-icon.png"></button>
+                </div>
+              </div>
+              
+            </div>
+              
+            
+            <!--Slider 2 -->
+            <div data-hash="slide2" class="swiper-slide">
+              <div class="text_col col">
+                <h2>GET READY FOR NEW ADIDAS BANDS</h2>
+                <p>Adidas tracks all begin with a starting gate and end with a finish line, but everything in between varies from track to track. Because no two tracks are alike, this action sport keeps you on your toes wherever you are racing.</p>
+              </div>
+              <div class="shoe_col col">
+                <div class="shoe_img">
+                  <img src="./assets/img/shoes.png"> 
+                  <button class="play_btn" onclick='playvideo("https://www.youtube.com/embed/J_i1XQmp0e0")'><img src="./assets/img/play-icon.png"></button>
+                </div>
+              </div>
+            </div>
+
+            <!--Slider 3-->
+            <div data-hash="slide3" class="swiper-slide">
+              <div class="text_col col">
+                <h2>GET READY FOR NEW ADIDAS BANDS</h2>
+                <p>Adidas tracks all begin with a starting gate and end with a finish line, but everything in between varies from track to track. Because no two tracks are alike, this action sport keeps you on your toes wherever you are racing.</p>
+              </div>
+              <div class="shoe_col col">
+                <div class="shoe_img">
+                  <img src="./assets/img/shoes.png"> 
+                  <button class="play_btn" onclick='playvideo("https://www.youtube.com/embed/J_i1XQmp0e0")'><img src="./assets/img/play-icon.png"></button>
+                </div>
+              </div>
+            </div>   
+            
+            <!--Slider 4-->
+            <div data-hash="slide4" class="swiper-slide">
+              <div class="text_col col">
+                <h2>GET READY FOR NEW ADIDAS BANDS</h2>
+                <p>Adidas tracks all begin with a starting gate and end with a finish line, but everything in between varies from track to track. Because no two tracks are alike, this action sport keeps you on your toes wherever you are racing.</p>
+              </div>
+              <div class="shoe_col col">
+                <div class="shoe_img">
+                  <img src="./assets/img/shoes.png"> 
+                  <button class="play_btn" onclick='playvideo("https://www.youtube.com/embed/J_i1XQmp0e0")'><img src="./assets/img/play-icon.png"></button>
+
+                </div>
+              </div>
+            </div> 
+        
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-next"><img src="assets/img/slider_next.svg"></div>
+        <div class="swiper-button-prev"><img src="./assets/img/slider_prev.svg"></div>
+      </div>
+    </section>
+
+
+    <div class="video_container" id="video_container">
+      <div id="video_close" onclick="videoClose()">
+      <button><img src="./assets/img/my-account-close-icon.svg" ></button>
+      </div>
+     <iframe  src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!--************************Tabs *********************-->
+    <section class="main_sections">
+      <!--Main left Right section-->
+      <div class="container">
+        <!--Contaimer for left Right Section-->
+        <div class="content_row">
+        <!--Row for left Right Section-->
+          <article class="left_col">
+            <!--Left columns-->
+            <section class="carusel_section">
+              <!--Carusel Section-->
+              <div class="swiper mycarusel">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./assets/img/shoeA.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes1.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes2.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes3.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoeA.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes1.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes2.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes3.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoeA.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes1.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes2.jpg"></div>
+                  <div class="swiper-slide"><img src="./assets/img/shoes3.jpg"></div>
+                </div>
+              </div>
+              <div class="carusel-button-next"><img src="./assets/img/VectorNextArrow.svg"></div>
+              <div class="carusel-button-prev">  <img src="./assets/img/VectorPrevArrow.svg"></div>
+              <div class="carusel-pagination"></div>
+            </section>
+            
+            <!---******************** Line ***************-->
+            <hr class="line">
+            <!---******************** Line ***************-->
+
+            <section class="card_section">
+              <!-- card 1-->
+              <div class="card">
+                <div class="car_img">
+                  <img src="./assets/img/post-img.png">
+                </div>
+                <div class="content">
+                  <h2>2019 NATIONAL CHAMPIONS CROWNED AT REEBOK</h2>
+                  <p>Membership has its perks. Joining ADIDAS means you can race at your local tracks</p>
+                </div>
+                <div class="card_btn">
+                  <button>READ MORE</button>
+                </div>
+              </div>
+              <!-- card =2-->
+              <div class="card">
+                <div class="car_img"><img src="./assets/img/post-img.png"></div>
+                <div class="content">
+                  <h2>2019 NATIONAL CHAMPIONS</h2>
+                  <p>Membership has its perks.</p>
+                </div>
+                <div class="card_btn">
+                  <button>READ MORE</button>
+                </div>
+              </div>
+
+
+              <!-- card 3-->
+              <div class="card">
+                <div class="car_img"><img src="./assets/img/post-img.png"></div>
+                <div class="content">
+                  <h2>2019 NATIONAL CHAMPION SCROWNED AT REEBOK</h2>
+                  <p>Membership has its perks. Joining ADIDAS means you can race at your local tracks</p>
+                </div>
+                <div class="card_btn">
+                  <button>READ MORE</button>
+                </div>
+              </div>
+            </section>
+
+
+            <!-- ***  ZigZag sectoion-->
+            
+
+              <section class="zigzag_section desktop_Zigzag">
+                 <!--  Odd ZigZag Section-->
+                <div class="zizag_child">
+                <div class="zigzagcol_img">
+                  <img src="./assets/img/zigzagimg.jpg">
+                </div>
+                <div class="zigzag_cntent">
+                  <h2>2019 NATIONAL CHAMPIONS CROWNED AT REEBOK</h2>
+                  <p>Membership has its perks. Joining
+                    ADIDAS means you can race at your
+                    local tracks</p>
+                </div>
+                 </div>
+                 <!--  Even ZigZag Section-->
+                 <div class="zizag_child">
+                <div class="zigzagcol_img">
+                  <img src="./assets/img/zigzagimg1.jpg">
+                </div>
+                <div class="zigzag_cntent">
+                  <h2>2019 NATIONAL CHAMPIONS CROWNED AT REEBOK</h2>
+                  <p>Membership has its perks. Joining
+                    ADIDAS means you can race at your
+                    local tracks</p>
+                </div>
+               </div>
+              </section>
+
+              <!-- <section class="zigzag_section2" >
+                
+              </section> -->
+          </article>
+            <!--Left columns Ended-->
+          <aside class="sidebar">
+            <section class="search_section">
+              <h2>Search</h2>
+              <div class="search_form">
+                <form>
+                  <div class="inputclass">
+                    <input type="search" required placeholder="Enter keyword">
+                  </div>
+                  <div class="search_btn">
+                    <button><span>search</span></button>
+                  </div>
+                </form>
+              </div>
+            </section>
+
+            <section class="event_section">
+                <h2>EVENTS</h2>
+              <div class="event_content">
+                <div class="event_list">
+                  <div class="eventnumber">
+                    <h3></h3>
+                  </div>
+                  <div class="list_data">
+                    <a href>SHOW IN USA</a>
+                    <p>USA</p>
+                  </div>
+                </div>
+
+                <div class="event_list">
+                  <div class="eventnumber">
+                    <h3></h3>
+                  </div>
+                  <div class="list_data">
+                    <a href>ADIDAS SHOW IN USA</a>
+                    <p>USA</p>
+                  </div>
+                </div>
+
+
+                <div class="event_list">
+                  <div class="eventnumber">
+                    <h3></h3>
+                  </div>
+                  <div class="list_data">
+                    <a href>ADIDAS SHOW</a>
+                    <p>USA</p>
+                  </div>
+                </div>
+
+
+                <div class="event_list">
+                  <div class="eventnumber">
+                    <h3></h3>
+                  </div>
+                  <div class="list_data">
+                    <a href>ADIDAS IN USA</a>
+                    <p>USA</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--  Category -->
+            <section class="category_section">
+                <h2>Categories</h2>
+                <div class="category_content">
+                  <ul>
+                    <li><a href="#">Sports Shoes</a></li>
+                    <li><a href="#">Sports Garments</a></li>
+                    <li><a href="#">Sports Goods</a></li>
+                    <li><a href="#">Leather Garments</a></li>
+                    <li><a href="#">Accessories</a></li>
+                  <ul>
+                </div>
+            </section>
+
+            <!--- Tags section-->
+            <section class="tags_section">
+              <h2>Categories</h2>
+              <div class="tags_content">
+              <i><a href="#">Sports</a></i>
+              <i><a href="#">Garments</a></i>
+              <i><a href="#">Accessories</a></i>
+              <i><a href="#">Shoes</a></i>
+              <i><a href="#">Sports</a></i>
+              <i><a href="#">Garments</a></i>
+              <i><a href="#">Accessories</a></i>
+              <i><a href="#">Shoes</a></i>
+              </div>
+            </section>
+            <!--Side Bar column-->
+
+          </aside>
+        </div>
+        
+          <!-- Mobile Responsive ZigZAg Section-->
+           <!-- <section class="mobile_zigzag">
+              <div class="zizag_child">
+            <div class="zigzagcol_img">
+             <img src="./assets/img/zigzag_mobile.jpg">
+            </div>
+          	  <div class="zigzag_cntent">
+             <h2>2019 NATIONAL CHAMPIONSC ROWNED AT REEBOK</h2>
+             <p>Membership has its perks. Joining
+               ADIDAS means you can race at your
+               local tracks</p>
+              </div>
+           </div>
+
+           <div class="zizag_child">
+            <div class="zigzagcol_img">
+             <img src="./assets/img/zigzag_mobile_2.jpg">
+            </div>
+          	  <div class="zigzag_cntent">
+             <h2>2019 NATIONAL CHAMPIONSC ROWNED AT REEBOK</h2>
+             <p>Membership has its perks. Joining
+               ADIDAS means you can race at your
+               local tracks</p>
+              </div>
+            </div>
+         </section> -->
+
+
+
+
+        <section class="tabs_section">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'tab1')" id="defaultOpen"><span>Match Info</span></button>
+            <button class="tablinks" onclick="openCity(event, 'tab2')"><span>Match Results</span></button>
+            <button class="tablinks" onclick="openCity(event, 'tab3')"><span>Match Schedule</span></button>
+          </div>
+          <!--tab content-->
+          <div id="tab1" class="tabcontent"  >
+            <p>Pende gönat kogörade att dor. Göktig vivår tedöna, sprita att pan. Nev dåhet diare refar. Pseudov hemitett tira: atomslöjd defas. Dell osat niväsk ynade. Terapon jömyr negt astrogahet. Preppare multirat. Pibånas id ifall kontrabon krosa. Tenyren sperade. Mävärat heterode. Kvasinde detik trint, i presonde trollfabrik. Suvasam reagen syktig såväl som flexicurity såväl som kroligt. Tödosade biodins, då fal alltså dekav. Sofås rese spegelig vagt. Mil previs om eurogt i spevist. Posat sikarade traheten. Dett cringe, gigaspen. Reas våsk inte zorra. Exohet antessade. Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade. Trisor isologi. Nir kaning mist. Blattesvenska homofologi fåska. Ultravys jes och dijeskap. Propovikenas inas. Vås niheten plade: inte terade, plus prede. Reatrerade prena i denera när oligt vimåktigt. Gårening preligt tisk cynmodern. Ösm lafur förutom fadade. Vaska faktaresistens tirade diade. Ar bev, sul. Ojör bepise videosamtal laledes. Tivodöktigt vagon liksom demiitet. Las nafurat jasminrevolution.
+            </p>
+            <p>
+              Lörem ipsum pren filomani. Kak or. Pende gönat kogörade att dor. Göktig vivår tedöna, sprita att pan. Nev dåhet diare refar. Pseudov hemitett tira: atomslöjd defas. Dell osat niväsk ynade. Terapon jömyr negt astrogahet. Preppare multirat. Pibånas id ifall kontrabon krosa. Tenyren sperade. Mävärat heterode. Kvasinde detik trint, i presonde trollfabrik. Suvasam reagen syktig såväl som flexicurity såväl som kroligt. Tödosade biodins, då fal alltså dekav. Sofås rese spegelig vagt. Mil previs om eurogt i spevist. Posat sikarade traheten. Dett cringe, gigaspen. 
+            </p>
+            Reas våsk inte zorra. Exohet antessade. Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade. Trisor isologi. Nir kaning mist. Blattesvenska homofologi fåska. Ultravys jes och dijeskap. Propovikenas inas. Vås niheten plade: inte terade, plus prede. Reatrerade prena i denera när oligt vimåktigt. Gårening preligt tisk cynmodern. Ösm lafur förutom fadade
+              
+            </div>
+          <!--tab content-->
+          <div id="tab2" class="tabcontent">
+            <p>Pende gönat kogörade att dor. Göktig vivår tedöna, sprita att pan. Nev dåhet diare refar. Pseudov hemitett tira: atomslöjd defas. Dell osat niväsk ynade. Terapon jömyr negt astrogahet. Preppare multirat. Pibånas id ifall kontrabon krosa. Tenyren sperade. Mävärat heterode. Kvasinde detik trint, i presonde trollfabrik. Suvasam reagen syktig såväl som flexicurity såväl som kroligt. Tödosade biodins, då fal alltså dekav. Sofås rese spegelig vagt. Mil previs om eurogt i spevist. Posat sikarade traheten. Dett cringe, gigaspen. Reas våsk inte zorra. Exohet antessade. Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade. Trisor isologi. Nir kaning mist. Blattesvenska homofologi fåska. Ultravys jes och dijeskap. Propovikenas inas. Vås niheten plade: inte terade, plus prede. Reatrerade prena i denera när oligt vimåktigt. Gårening preligt tisk cynmodern. Ösm lafur förutom fadade. Vaska faktaresistens tirade diade. Ar bev, sul. Ojör bepise videosamtal laledes. Tivodöktigt vagon liksom demiitet. Las nafurat jasminrevolution.
+            </p>
+           
+          </div>
+          <!--tab content-->
+          <div id="tab3" class="tabcontent">
+            <p>Pende gönat kogörade att dor. Göktig vivår tedöna, sprita att pan. Nev dåhet diare refar. Pseudov hemitett tira: atomslöjd defas. Dell osat niväsk ynade. Terapon jömyr negt astrogahet. Preppare multirat. Pibånas id ifall kontrabon krosa. Tenyren sperade. Mävärat heterode. Kvasinde detik trint, i presonde trollfabrik. Suvasam reagen syktig såväl som flexicurity såväl som kroligt. Tödosade biodins, då fal alltså dekav. Sofås rese spegelig vagt. Mil previs om eurogt i spevist. Posat sikarade traheten. Dett cringe, gigaspen. Reas våsk inte zorra. Exohet antessade. Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade. Trisor isologi. Nir kaning mist. Blattesvenska homofologi fåska. Ultravys jes och dijeskap. Propovikenas inas. Vås niheten plade: inte terade, plus prede. Reatrerade prena i denera när oligt vimåktigt. Gårening preligt tisk cynmodern. Ösm lafur förutom fadade. Vaska faktaresistens tirade diade. Ar bev, sul. Ojör bepise videosamtal laledes. Tivodöktigt vagon liksom demiitet. Las nafurat jasminrevolution.
+            </p>
+            <p>
+              Lörem ipsum pren filomani. Kak or. Pende gönat kogörade att dor. Göktig vivår tedöna, sprita att pan. Nev dåhet diare refar. Pseudov hemitett tira: atomslöjd defas. Dell osat niväsk ynade. Terapon jömyr negt astrogahet. Preppare multirat. Pibånas id ifall kontrabon krosa. Tenyren sperade. Mävärat heterode. Kvasinde detik trint, i presonde trollfabrik. Suvasam reagen syktig såväl som flexicurity såväl som kroligt. Tödosade biodins, då fal alltså dekav. Sofås rese spegelig vagt. Mil previs om eurogt i spevist. Posat sikarade traheten. Dett cringe, gigaspen. 
+            </p>
+          </div>
+        </section>
+        <!--******************Accordinae********************* -->
+        <section class="accordion">
+          <!--Accor 1-->
+          <div class="accordion__header is-active">
+              <h2>Mil previs om eurogt i spevist. Posat sikarade traheten.</h2>
+              <!-- <img class="arrow-icon" src="./assets/img/accordine_ArrowDoen.svg"> -->
+          </div>
+          <div class="accordion__body is-active">
+              <p>Pende gönat kogörade att dor. Göktig vivår tedöna, sprita att pan. Nev dåhet diare refar. Pseudov hemitett tira: atomslöjd defas. Dell osat niväsk ynade. Terapon jömyr negt astrogahet. Preppare multirat. Pibånas id ifall kontrabon krosa. Tenyren sperade. Mävärat heterode. Kvasinde detik trint, i presonde trollfabrik. Suvasam reagen syktig såväl som flexicurity såväl som kroligt. Tödosade biodins, då fal alltså dekav. Sofås rese spegelig vagt. Mil previs om eurogt i spevist. Posat sikarade traheten. Dett cringe, gigaspen. Reas våsk inte zorra. Exohet antessade. Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade. Trisor isologi. Nir kaning mist. Blattesvenska homofologi fåska. Ultravys jes och dijeskap. Propovikenas inas. Vås niheten plade: inte terade, plus prede. Reatrerade prena i denera när oligt vimåktigt.</p>
+            </div>
+
+          <!--Accor 2-->
+          <div class="accordion__header">
+              <h2>Göktig vivår tedöna, sprita att pan. Nev dåhet diare refar</h2>
+              <!-- <img class="arrow-icon" src="./assets/img/accordine_ArrowDoen.svg"> -->
+
+          </div>
+          <div class="accordion__body">
+              <p>Sofås rese spegelig vagt. Mil previs om eurogt i spevist. Posat sikarade traheten.</p>
+              <p><strong>Free worldwide shipping</strong></p>
+              <p>Your order will be dispatched the next day.</p>
+          </div>
+          
+          <!--Accor 3-->
+          <div class="accordion__header">
+            <h2>Sofås rese spegelig vagt. Mil previs om eurogt i spevist. Posat sikarade traheten.</h2>
+            <!-- <img class="arrow-icon" src="./assets/img/accordine_ArrowDoen.svg"> -->
+        </div>
+        <div class="accordion__body">
+            <p>Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade.</p>
+            <p><strong>Free worldwide shipping</strong></p>
+            <p>Your order will be dispatched the next day.</p>
+        </div>
+
+           <!--Accor 4-->
+        <div class="accordion__header">
+          <h2>Tenyren sperade. Mävärat heterode. Kvasinde detik trint, i presonde trollfabrik</h2>
+          <!-- <img class="arrow-icon" src="./assets/img/accordine_ArrowDoen.svg"> -->
+      </div>
+      <div class="accordion__body">
+          <p>Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade.</p>
+          <p><strong>Free worldwide shipping</strong></p>
+          <p>Your order will be dispatched the next day.</p>
+      </div>
+
+         <!--Accor 5-->
+        <div class="accordion__header">
+          <h2>Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade.</h2>
+          <!-- <img class="arrow-icon" src="./assets/img/accordine_ArrowDoen.svg"> -->
+      </div>
+      <div class="accordion__body">
+          <p>Telede mida plar inte nung. Nigen visade lalig i jasade oaktat makross. Sus plabydade.</p>
+          <p><strong>Free worldwide shipping</strong></p>
+          <p>Your order will be dispatched the next day.</p>
+      </div>
+        
+      </section>
+      </div>
+    </section>
+
+    <!--Form-->
+    <section class="form_section">
+      <div class="form_wrapper">
+        <h2>GET IN TOUCH WITH US</h2>
+        <form class="form">
+          <div class="Form_row">
+              <div class="input_wrapper">
+                <!-- <lable for="name" class="label">NAME</lable> -->
+                <label for="name" class="label">NAME</label>
+                <input type="text" name="name" id="name" value="" placeholder="enter name" >
+              </div>
+              <div class="input_wrapper">
+                <label class="label" for="email">EMAIL</label>
+                <input type="Email" id='email' name=""  placeholder="Enter email">
+              </div>
+              
+          </div>
+          <!-- Row 2-->
+          <div class="Form_row">
+            <div class="input_wrapper">
+              <label class="label">COUNTRY</label>
+              <select id="Formlist" name="list">
+                <option value="USA">USA</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Saudi Africa">Saudi Africa</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+              </select>
+              
+            </div>
+
+            <div class="input_wrapper">
+              <label for="state" class="label">STATE</label>
+              <input type="text" id="state" required placeholder="USA">
+            </div>
+        </div>
+
+        <div class="Form_row">
+          <div class="input_wrapper">
+            <label class="label">GENDER</label>
+            <div class="radio_btn">
+              <div class="radio_button">
+                <input type="radio" class="radio_button" id="male" name="fav_language " value="male"><label for="male" class="radio_text">Male</label>
+              </div>
+              <div class="radio_button">
+                <input type="radio" class="radio_button" id="female" name="fav_language " value="male"><label for="female" class="radio_text">Female</label>
+              </div>
+              <div class="radio_button">
+                <input type="radio" class="radio_button" id="other" name="fav_language " value="male"><label for="other"  class="radio_text">Other</label>
+              </div>
+            
+            </div>
+          </div>
+      </div>
+      
+
+        <div class="textare_class">
+          <label class="label" for="message">Message</label>
+          <textarea name="w3review" id="message" placeholder="Message"  cols="50"></textarea>
+      </div>
+      <div class="contactForm_btn">
+        <button>SUBMIT</button>
+      </div>
+        </form>
+      </div>
+    </section>
+    
+
+    <!-- Footer Section-->
+    <footer class="footer_section">
+      <div class="container">
+        <!-- Footer Menu Links-->
+        <section class="footer_links">
+        <ul>
+          <li><a href="#">OUR TRACKS</a></li>
+          <li><a href="#">FIND EVENTS</a></li>
+          <li><a href="#" >TRACK MAP</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">ABOUT US</a></li>
+        </ul>
+      	 </section>
+
+         <!--Social Media Icons -->
+        <section class="social_media">
+          <i><a href="#"><img src="./assets/img/facebook_icon.svg"></a></i>
+          <i><a href="#"><img src="./assets/img/twitter_icon.svg"></a></i>
+          <i><a href="#"><img src="./assets/img/instagram-icon.svg"></a></i>
+          <i><a href="#"><img src="./assets/img/linkedIn_icon.svg"></a></i>
+        </section>
+
+        <!-- Footer Copyright @-->
+        <section class="copyright_sections">
+          <p>© copyright 2020 Adidas</p>
+        </section>
+      </div>
+      
+    </footer>
+    <script type="text/javascript" src="assets/js/jquery.js"></script> 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+</html>
