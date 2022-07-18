@@ -9,7 +9,8 @@ function close_notification() {
 $(document).ready(function () {
   $(".burgericon").on('click', function () {
     $("#outer_header").slideToggle();
-    $("body").toggleClass("overflow")
+    $("body").toggleClass("overflow");
+    $(".burgericon").toggleClass("openmenu")
   });
   // js for slider
   var swiper = new Swiper(".mySwiper", {

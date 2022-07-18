@@ -20,9 +20,35 @@
   .identity_section .container {
     flex-direction: column;
   }
-  .burgericon {
-    display: inline-block;
-  }
+   /* burgericon*/
+   .burgericon{
+    width: 18px;
+    height: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.burgericon .menu_bar{
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+.openmenu .menu_bar1{
+    transform: rotate(-45deg) translate(0px, 6px);
+}
+.openmenu .menu_bar2{
+    opacity: 0;
+}
+
+.openmenu .menu_bar3{
+    transform: rotate(45deg) translate(-2px, -9px);
+}
+/* burgericon*/
   .identity_section .container .logo .logo_icon{
     width: 97px;
     height: 33px;
