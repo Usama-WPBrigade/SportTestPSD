@@ -813,6 +813,9 @@ body {
 .accordion__body.is-active {
   display: block;
 }
+
+
+/* Form*/
 .form_section {
   background-image: url("../img/pattern-bg.png");
   background-color: #0d4d31;

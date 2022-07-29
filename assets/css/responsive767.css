@@ -221,6 +221,7 @@
   .outer_header {
     display: none;
     height: 100vh;
+    position: absolute;
   }
   /***Rebok section***/
   .title_section {
