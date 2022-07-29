@@ -291,8 +291,8 @@
     margin-bottom: 0;
   }
   .shoe_col .play_btn {
-    width: 60px;
-    height: 60px;
+    max-width: 60px;
+    min-height: 60px;
     padding: 16px 16px 18px 23px;
     top: 50%;
     left: 50%;

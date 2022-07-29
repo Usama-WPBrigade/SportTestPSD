@@ -74,8 +74,8 @@ body {
 .notification_section .noification_closeBTN {
   position: absolute;
   right: 30px;
-  width: 24px;
-  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
   background-color: #217f40;
   border: none;
   border-radius: 50%;
@@ -118,8 +118,8 @@ body {
   object-fit: contain;
 }
 .identity_section .container .logo .logo_icon a {
-  width: 144px;
-  height: 50px;
+  max-width: 144px;
+  min-height: 50px;
   display: flex;
   align-items: center;
 }
@@ -255,12 +255,12 @@ body {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  right: -22px;
+  right: -7px;
   cursor: pointer;
   transition: 0.3s all;
   padding: 5px;
-  height: 100%;
-  width: 46px;
+  min-height: 100%;
+  max-width: 46px;
 }
 .nav_right .search form input[type="search"]{
   position: relative;
@@ -567,8 +567,8 @@ body {
 
 .shoe_col .play_btn {
   position: absolute;
-  width: 87px;
-  height: 87px;
+  max-width: 87px;
+  min-height: 87px;
   padding: 24px 32px 24px 37px;
   display: flex;
   align-items: center;
@@ -1089,8 +1089,8 @@ input[type="radio"]:checked:after {
   .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  width: 16px;
-  height: 5px;
+  max-width: 16px;
+  min-height: 4px;
   border-radius: 0;
   background: white;
 }
@@ -1215,7 +1215,7 @@ input[type="radio"]:checked:after {
 }
 .sidebar .event_section .event_content .event_list .eventnumber {
   display: flex;
-  height: 46px;
+  min-height: 46px;
   min-width: 46px;
   background-color: #fff;
   justify-content: center;
@@ -1293,8 +1293,8 @@ input[type="radio"]:checked:after {
   content: '';
   background-image: url('../img/list_style.svg');
   display: inline-block;
-  height: 12px;
-  width: 12px;
+  min-height: 12px;
+  min-width: 12px;
   left: 0;
   background-repeat: no-repeat;
   background-size: contain;
