@@ -12,6 +12,7 @@
   }
   .identity_section {
     padding: 8px 0px;
+    position: relative;
   }
   .notification_section .noification_closeBTN {
     right: 15px;
@@ -21,16 +22,21 @@
     flex-direction: column;
   }
    /* burgericon*/
+   .burger-wrapper{
+     display: block;
+   }
+
    .burgericon{
     width: 18px;
     height: 14px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
     background-color: transparent;
     border: none;
     outline: none;
+    display: flex;
+
 }
 .burgericon .menu_bar{
     width: 100%;
