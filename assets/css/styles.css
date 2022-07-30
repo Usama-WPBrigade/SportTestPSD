@@ -119,7 +119,7 @@ body {
 }
 .identity_section .container .logo .logo_icon a {
   max-width: 144px;
-  min-height: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
 }
@@ -568,7 +568,7 @@ body {
 .shoe_col .play_btn {
   position: absolute;
   max-width: 87px;
-  min-height: 87px;
+  height: 87px;
   padding: 24px 32px 24px 37px;
   display: flex;
   align-items: center;
@@ -1215,7 +1215,7 @@ input[type="radio"]:checked:after {
 }
 .sidebar .event_section .event_content .event_list .eventnumber {
   display: flex;
-  min-height: 46px;
+  max-height: 46px;
   min-width: 46px;
   background-color: #fff;
   justify-content: center;
