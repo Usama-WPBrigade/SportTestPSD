@@ -54,7 +54,7 @@ body {
   justify-content: center;
 }
 .notification_section .container p {
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -130,7 +130,7 @@ body {
   border: none;
   transform: skew(-15deg);
   min-width: 150px;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   text-align: center;
   display: inline-block;
@@ -142,7 +142,7 @@ body {
   display: inline-block;
   font-size: 16px;
   line-height: 24px;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   color: #ffffff;
   transform: skew(15deg);
@@ -176,7 +176,6 @@ body {
   top: 1px;
   right: 3px;
   cursor: pointer;
-  /* display: none; */
 }
 .mobile_btn {
   display: none;
@@ -202,7 +201,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* overflow: auto; */
 }
 .nav_right {
   text-align: right;
@@ -224,7 +222,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   transform: skew(-15deg);
   padding: 17px 30px;
@@ -244,10 +242,6 @@ body {
   background-color: #097d37;
   background-image: url("../img/pattern-bg.png");
 }
-/* .nav_left > ul > li > a:hover {
-  background-color: #097d37;
-  background-image: url("../img/pattern-bg.png");
-} */
 .nav_right .search button {
   background-color: transparent;
   border: none;
@@ -272,7 +266,6 @@ body {
   -webkit-appearance:none;
   background-image: url('../img/my-account-close-icon.svg');
   position: absolute;
-  /* border: 1px solid white; */
   right: 5px;
   background-repeat: no-repeat;
   width: 25px;
@@ -311,31 +304,19 @@ body {
   padding: 8px 45px 8px 15px;
   color: #fff;
   position: relative;
-  font-family: "Oswald";
+  font-family: "Oswald",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
-  /* opacity: 0.5; */
 }
 
 .search_field::placeholder {
   color: #fff;
   opacity: 0.5;
 }
-
-/* 
-#tracksmenu > a {
-  padding: 18px 31px;
-}
-#eventmenu {
-  padding: 17px 24px;
-}
-#trackmapmenu {
-  padding: 17px 32px;
-} */
 .searchimage {
   position: relative;
   margin-left: -34px;
@@ -369,9 +350,7 @@ body {
   padding: 10px 0px;
   display: none;
 }
-/* #dropdown {
-  left: 17px;
-} */
+
 .dropdown-content > li {
   transform: skew(0deg);
   text-align: left;
@@ -420,7 +399,7 @@ body {
 }
 
 .title_section .container .title h1 {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 50px;
@@ -444,7 +423,7 @@ body {
 }
 .title_section .container .reebok_logo p {
   padding-right: 30px;
-  font-family: "Oswald";
+  font-family: "Oswald" , Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -487,6 +466,7 @@ body {
   background-size: cover;
   position: relative;
   min-height: 549px;
+  width: 100%;
 }
 
 .slider_section > .swiper {
@@ -499,21 +479,18 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   justify-content: space-between;
-  /* -webkit-align-items: center; */
+  -webkit-align-items: center;
   padding: 54px 65px;
-  /* min-height: 549px; */
   min-height: auto;
 }
 .slider_section .swiper-slide .shoe_col {
   width: 48%;
-  /* border: 1px solid #012c1f; */
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: 393px 407px;
 }
 .slider_section .swiper-slide .text_col {
   width: 50%;
-  /* border: 1px solid #012c1f; */
   box-sizing: border-box;
   padding: 15px 20px 15px 2px;
   display: flex;
@@ -522,7 +499,7 @@ body {
 }
 
 .slider_section .swiper-slide .text_col h2 {
-  font-family: "Oswald";
+  font-family: "Oswald",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 50px;
@@ -533,7 +510,7 @@ body {
 }
 
 .slider_section .swiper-slide .text_col p {
-  font-family: "Roboto";
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -552,11 +529,7 @@ body {
   align-items: center;
   padding: 10px 30px 8px 31px;
 }
-/* .slider_section .shoe_col{
-  background-image: url('../img/shoes.png');
-  background-position: center;
-  background-size: cover;
-} */
+
 .slider_section .shoe_col .shoe_img {
   position: relative;
 }
@@ -585,7 +558,6 @@ body {
   background-image: url("../img/pattern-bg.png");
 }
 .shoe_col .play_btn img{
-  /* max-width: 100%; */
   height: 100%;
   object-fit: contain;
 }
@@ -598,7 +570,6 @@ body {
   border-radius: 0% !important;
   background: #ffffff;
   transition: 0.3s all;
-  /* opacity: 0.4; */
 }
 .slider_section .swiper-pagination-bullet:hover {
   opacity: 0.3;
@@ -694,7 +665,7 @@ body {
 
 .tabs_section .tab button span {
   display: block;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -713,15 +684,13 @@ body {
   padding: 29px 29px 83px 37px;
   background-image: url("../img/pattern-bg.png");
   background-color: #0a7c37;
-  /* padding-bottom: 20px; */
 }
 .tabs_section .tabcontent {
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  /* or 143% */
   color: #ffffff;
   opacity: 0.8;
 }
@@ -773,7 +742,7 @@ body {
 
 .accordion__header h2 {
   text-align: left;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -802,7 +771,7 @@ body {
   display: none;
   padding: 18px 0px 27px 0px;
   border-top: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -825,10 +794,9 @@ body {
 .form_section .form_wrapper {
   max-width: 540px;
   margin: 0 auto;
-  /* border: 1px solid white; */
 }
 .form_section .form_wrapper h2 {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -869,7 +837,7 @@ body {
 }
 
 .form_section .form_wrapper .form .Form_row .input_wrapper .label {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -883,7 +851,7 @@ body {
   cursor: pointer;
 }
 .form_section .form_wrapper .form .Form_row .input_wrapper input::placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -933,7 +901,7 @@ input[type="radio"]:checked:after {
 }
 
 .radio_text {
-  font-family: "Roboto";
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -964,7 +932,7 @@ input[type="radio"]:checked:after {
   height: 100%;
 }
 .form_section .form_wrapper .form .textare_class .label {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -973,7 +941,7 @@ input[type="radio"]:checked:after {
   letter-spacing: 0.3px;
 }
 .textare_class textarea::placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -990,7 +958,7 @@ input[type="radio"]:checked:after {
 .contactForm_btn button {
   text-align: center;
   background-color: #012c1f;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1021,22 +989,10 @@ input[type="radio"]:checked:after {
 }
 
 .carusel_section .swiper-slide {
-  /* text-align: center;
-  font-size: 18px;
-  background: #fff; */
-
-  /* Center slide text vertically */
-  /* display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex; */
   display: flex;
   -webkit-box-pack: center;
-  /* -ms-flex-pack: center; */
   -webkit-justify-content: center;
   justify-content: center;
-  /* -webkit-box-align: center; */
-  /* -ms-flex-align: center; */
-  /* -webkit-align-items: center; */
   align-items: center;
   background-image: url("../img/pattern-bg.png");
   background-color: #145d4a;
@@ -1060,13 +1016,8 @@ input[type="radio"]:checked:after {
   right: 0px;
 }
 .carusel-button-prev {
-  /* position: absolute; */
   left: 0px;
   top: calc(50% - 50px);
-
-  /* top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer; */
 }
 .carusel-button-next:hover,
 .carusel-button-prev:hover {
@@ -1077,7 +1028,6 @@ input[type="radio"]:checked:after {
 .carusel_section .carusel-pagination {
   display: flex;
   justify-content: center;
-  /* transform: translate(); */
   position: absolute;
   top: 81%;
   margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
@@ -1110,7 +1060,7 @@ input[type="radio"]:checked:after {
 .sidebar .search_section h2 {
   background-image: url("../img/pattern-bg.png");
   background-color: #10562f;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1142,7 +1092,7 @@ input[type="radio"]:checked:after {
   color: #055423;
 }
 .sidebar .search_section .search_form .inputclass input::placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1170,7 +1120,7 @@ input[type="radio"]:checked:after {
 }
 
 .sidebar .search_section .search_form .search_btn button span {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1189,7 +1139,7 @@ input[type="radio"]:checked:after {
 .sidebar .event_section h2 {
   background-image: url("../img/pattern-bg.png");
   background-color: #10562f;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1233,7 +1183,6 @@ input[type="radio"]:checked:after {
   text-transform: uppercase;
 }
 .sidebar .event_section .event_content .event_list .eventnumber h3::before {
-  /* Increment "my-sec-counter" by 1 */
   counter-increment: mycounter;
   content: counter(mycounter);
 }
@@ -1241,7 +1190,7 @@ input[type="radio"]:checked:after {
   padding: 0px 10px;
 }
 .sidebar .event_section .event_content .event_list .list_data a {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -1257,7 +1206,7 @@ input[type="radio"]:checked:after {
 }
 
 .sidebar .event_section .event_content .event_list .list_data p {
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1271,7 +1220,7 @@ input[type="radio"]:checked:after {
 .category_section h2 {
   background-image: url("../img/pattern-bg.png");
   background-color: #10562f;
-  font-family: "Oswald";
+  font-family: "Oswald" ,Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1286,7 +1235,6 @@ input[type="radio"]:checked:after {
   padding: 16px 20px 20px 23px;
 }
 .category_content ul {
-  /* list-style-image: url("../img/list_style.svg"); */
   list-style: none;
 }
 .category_content ul li a::before{
@@ -1314,7 +1262,7 @@ input[type="radio"]:checked:after {
   padding: 8px 0px;
 }
 .category_content ul li a {
-  font-family: "Oswald";
+  font-family: "Oswald" ,Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1333,7 +1281,7 @@ input[type="radio"]:checked:after {
 .tags_section h2 {
   background-image: url("../img/pattern-bg.png");
   background-color: #10562f;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1359,7 +1307,7 @@ input[type="radio"]:checked:after {
 .tags_section .tags_content i a {
   display: block;
   transform: skew(15deg);
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1408,14 +1356,9 @@ input[type="radio"]:checked:after {
   padding: 18px 25px 26px 10px;
   margin-bottom: auto;
 }
-/* .card_section .card:nth-child(2) > .content {
-  padding: 15px 21px 28px 10px;
-}
-.card_section .card:nth-child(3) > .content {
-  padding: 13px 17px 28px 10px;
-} */
+
 .card_section .card .content h2 {
-  font-family: "Oswald";
+  font-family: "Oswald",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1427,7 +1370,7 @@ input[type="radio"]:checked:after {
 }
 
 .card_section .card .content p {
-  font-family: "Roboto";
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1445,7 +1388,7 @@ input[type="radio"]:checked:after {
   background-image: url("../img/pattern-bg.png");
   background-color: #155a33;
   cursor: pointer;
-  font-family: "Oswald";
+  font-family: "Oswald",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1488,7 +1431,7 @@ input[type="radio"]:checked:after {
   align-items: center;
 }
 .zigzag_section .zizag_child:nth-child(odd) .zigzag_cntent h2 {
-  font-family: "Oswald";
+  font-family: "Oswald",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1503,7 +1446,7 @@ input[type="radio"]:checked:after {
   cursor: pointer;
 }
 .zigzag_section .zizag_child:nth-child(odd) .zigzag_cntent p {
-  font-family: "Roboto";
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1540,7 +1483,7 @@ input[type="radio"]:checked:after {
   align-items: center;
 }
 .zigzag_section .zizag_child:nth-child(even) .zigzag_cntent h2 {
-  font-family: "Oswald";
+  font-family: "Oswald",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1555,7 +1498,7 @@ input[type="radio"]:checked:after {
   cursor: pointer;
 }
 .zigzag_section .zizag_child:nth-child(even) .zigzag_cntent p {
-  font-family: "Roboto";
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1571,7 +1514,6 @@ input[type="radio"]:checked:after {
   padding: 32px 0px 35px;
 }
 .footer_section .container {
-  /* padding: 29px 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1592,11 +1534,10 @@ input[type="radio"]:checked:after {
 }
 
 .footer_section .container ul li > a {
-  /* transform: skew(-18deg); */
   display: inline-block;
   margin: 0%;
   text-decoration: none;
-  font-family: "Oswald";
+  font-family: "Oswald",Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
